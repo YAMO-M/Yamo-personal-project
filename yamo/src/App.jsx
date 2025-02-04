@@ -20,7 +20,7 @@ export default function App() {
           
           <div className=" ml-220 mt-180 w-150 sticky   ">
             <p className="text-2xl flex w-150">
-              'Yamo' igama lami. I'm mostly Popular on{" "}
+              'Yamo' igama lami. I'm mostly Popular on
               <a href="https://www.facebook.com">
                 <svg
                   className="w-7 ml-3  "
