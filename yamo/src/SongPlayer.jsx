@@ -184,19 +184,19 @@ export default function SongPlayer() {
           <ReactPlayer
             url={songUrl}
             playing={playing}
-            controls={true} // Show player controls
-            width="100%" // Full width (or you can adjust to fit your layout)
-            height="100%" // Adjust height as needed
-            volume={1} // Set volume
-            loop={true} // Optionally loop the song
+            controls={true} 
+            width="100%" 
+            height="100%"
+            volume={1} 
+            loop={true} 
             config={{
               youtube: {
                 playerVars: {
-                  autoplay: 1, // Auto-play when the video loads
-                  controls: 0, // Show YouTube controls
-                  modestbranding: 1, // Hide YouTube branding
-                  mute: 0, // Unmute the video
-                  start: 0, // Start time (in seconds)
+                  autoplay: 1, 
+                  controls: 0, 
+                  modestbranding: 1, 
+                  mute: 0, 
+                  start: 0, 
                 },
               },
             }}
